@@ -2,6 +2,8 @@
 <manifest>
 <remote name="phh1" fetch="https://github.com/phhusson/" />
 
+<project path="device/phh/treble" name="device_phh_treble" remote="phh" revision="master" />
+
 <!-- exfat support -->
 <project path="external/exfat" name="exfat" remote="phh1" revision="android.bp-pie" />
 
